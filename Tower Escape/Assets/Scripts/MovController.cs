@@ -22,6 +22,8 @@ public class MovController : MonoBehaviour {
     bool canDestroy = false;
     public Text Axes;
 
+    
+
     void Start()
     {
         lookLeft = new Vector3(0.5873498f, 0.56f, 1f);
