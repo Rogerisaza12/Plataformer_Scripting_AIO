@@ -13,7 +13,7 @@ public class MovController : MonoBehaviour {
     bool Jumping, isgrounded;
     private Vector3 lookRight, lookLeft;
 
-    
+    public Vector3 startPos; 
     int score = 10000;
     public Text scoretext;
     int vidas = 3;
@@ -127,7 +127,17 @@ public class MovController : MonoBehaviour {
             vidas = vidas - 1;
             SetCountText();
         }
+
+        if (other.gameObject.CompareTag("Death2"))
+        {
+
+            transform.position = startPos;
+            vidas = vidas - 1;
+            
+        }
+
     }
+    
 
     public void WalkLeft()
     {

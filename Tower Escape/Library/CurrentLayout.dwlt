@@ -230,8 +230,8 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 713, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 711, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
   controlID: 10
 --- !u!114 &11
@@ -281,8 +281,8 @@ MonoBehaviour:
     y: 0
     width: 281
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -418,9 +418,9 @@ MonoBehaviour:
     height: 279
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: f0ecfcffe0eefcff8afcfcfff200fdff1e02fdff6a08fdffde28fdffbc2bfdffbe2bfdff724dfdff764efdffe2fbffff00000000d8490100
+    m_SelectedIDs: a600fdff
+    m_LastClickedID: -196442
+    m_ExpandedIDs: 7ef0fcffb000fdff9607feff380bfeffb610feffda15feff8837feff5c4cfeff7a51feff325ffeff7460feffd8f2ffffe2fbffff00000000ea260000027900000e7c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
   m_ExpandedScenes:
-  - Level1
+  - Level4
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -470,14 +470,14 @@ MonoBehaviour:
     width: 835
     height: 394
   m_SceneLighting: 1
-  lastFramingTime: 9244.896886597699
+  lastFramingTime: 4968.618187289331
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.4395103, y: -1.077533, z: -10}
+    m_Target: {x: 19.483435, y: -1.1858505, z: 10}
     speed: 2
-    m_Value: {x: -6.4395103, y: -1.077533, z: -10}
+    m_Value: {x: 19.483435, y: -1.1858505, z: 10}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -504,14 +504,14 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 31.13573
+    m_Target: 38.587345
     speed: 2
-    m_Value: 31.13573
+    m_Value: 38.587345
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.08717229, y: -0.89959055, z: 0.21045254, w: 0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -582,19 +582,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Alejandro Isaza\Desktop\Plataformer_AIO\Tower Escape
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea240000
-    m_LastClickedID: 9450
-    m_ExpandedIDs: 00000000ac24000000250000342e0000362e0000382e00003a2e00003c2e00003e2e0000402e0000422e0000442e0000462e0000482e00004a2e0000ffffff7f
+    m_SelectedIDs: b0240000
+    m_LastClickedID: 9392
+    m_ExpandedIDs: 00000000b024000006250000422e0000442e0000462e0000482e00004a2e00004c2e00004e2e0000502e0000522e0000542e0000562e0000582e0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,7 +622,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac24000000250000342e0000362e0000382e00003a2e00003c2e00003e2e0000402e0000422e0000442e0000462e0000482e00004a2e0000
+    m_ExpandedIDs: 00000000b024000006250000422e0000442e0000462e0000482e00004a2e00004c2e00004e2e0000502e0000522e0000542e0000562e0000582e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -653,18 +653,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: d40400002a050000fa44f8fff6030000cc210000521c0000241c00009c240000d2230000c2230000d0230000be230000c0230000c6230000de23000000000000ca230000c8230000cc23000030240000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: MovingPLats
+      m_OriginalName: MovingPLats
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 28016
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
